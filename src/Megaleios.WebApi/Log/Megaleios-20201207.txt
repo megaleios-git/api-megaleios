@@ -1,8 +1,0 @@
-2020-12-07T11:59:28.0284679-03:00 0HM4QNUT991OA [WRN] ############# START ############
-HTTP/1.1  http://localhost:5000/api/v1/City/GetInfoFromZipCode/03063000
-
-HEADERS: {"Authorization":""}
-
-RESPONSE: {"data":{"zipCode":"03063-000","streetAddress":"Avenida Celso Garcia","number":null,"cityName":"São Paulo","cityId":"5a141e336e0ba6458c12e5ae","stateName":"São Paulo","stateUf":"SP","stateId":"5a0b751e8f846bb1846cd786","neighborhood":"Tatuapé","complement":null},"erro":false,"errors":null,"message":"Sucesso","messageEx":null}
-############# END ############
- (3187e05d)
