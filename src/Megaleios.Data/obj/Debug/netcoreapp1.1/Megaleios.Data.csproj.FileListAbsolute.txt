@@ -1,0 +1,10 @@
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\bin\Debug\netcoreapp1.1\Megaleios.Data.deps.json
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\bin\Debug\netcoreapp1.1\Megaleios.Data.dll
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\bin\Debug\netcoreapp1.1\Megaleios.Data.pdb
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.AssemblyInfoInputs.cache
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.AssemblyInfo.cs
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.csproj.CoreCompileInputs.cache
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.dll
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.pdb
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.csproj.AssemblyReference.cache
+D:\WorkSpace\api-megaleios\src\Megaleios.Data\obj\Debug\netcoreapp1.1\Megaleios.Data.GeneratedMSBuildEditorConfig.editorconfig

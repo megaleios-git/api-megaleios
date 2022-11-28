@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="1.1.3" />
+    <PackageReference Include="UtilityFramework.Application.Core" Version="2.2.2" />
+    <PackageReference Include="UtilityFramework.Services.Core" Version="1.4.8" />
+    <PackageReference Include="UtilityFramework.Services.Iugu.Core" Version="1.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Megaleios.Data\Megaleios.Data.csproj" />
+  </ItemGroup>
+
+</Project>

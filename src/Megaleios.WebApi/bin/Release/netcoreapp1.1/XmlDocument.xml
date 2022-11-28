@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Megaleios.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Megaleios.WebApi.Controllers.BankController.Get">
+            <summary>
+            LISTA DE BANCOS DISPONIVEIS PARA CADASTRO (IUGU)
+            </summary>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Controllers.BankController.ListBrazilian">
+            <summary>
+            LISTA DE BANCOS DO BRASIL
+            </summary>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Controllers.BankController.Update(System.Boolean,System.Collections.Generic.List{Megaleios.Domain.ViewModels.BankImportViewModel})">
+            <summary>
+            ATUALIZAR BASE DE DADOS
+            </summary>
+            <remarks>
+            OBJ DE ENVIO
+            
+            
+                    POST
+                        {
+                         "Banco":"string",
+                         "Agencia":"string",
+                         "Conta":"string",
+                         "Code":"string",
+                        }
+            </remarks>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Controllers.CityController.Get(System.String)">
+            <summary>
+            LISTAR CIDADES POR ESTADOS
+            </summary>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Controllers.CityController.ListCountry">
+            <summary>
+            LISTAR TODOS PAISES
+            </summary>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Controllers.CityController.ListState(System.String)">
+            <summary>
+            LISTAR ESTADOS COM FILTRO POR ESTADO 
+            </summary>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Controllers.CityController.GetInfoFromZipCode(System.String)">
+            <summary>
+            BUSCAR INFORMAÇÕES DE DETERMINADO CEP
+            </summary>
+            <response code="200">Returns success</response>
+            <response code="400">Custom Error</response>
+            <response code="401">Unauthorize Error</response>
+            <response code="500">Exception Error</response>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Services.IocContainer.AddRepositoryInjection(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            INJEÇÃO DE DEPENDENCIAS DE REPOSITORIO DE ACESSO A DADOS DO BANCO
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Megaleios.WebApi.Services.IocContainer.AddServicesInjection(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            INJEÇÃO DE DEPENDENCIAS DE SERVIÇOS DE API
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

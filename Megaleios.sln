@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2F295185-FF40-4B0A-A2EA-80E617785EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megaleios.Data", "src\Megaleios.Data\Megaleios.Data.csproj", "{6E570E15-9DA7-461F-B748-0C9F33A7AB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megaleios.Domain", "src\Megaleios.Domain\Megaleios.Domain.csproj", "{184DC297-9804-4B18-9116-464E6C8A667C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megaleios.Repository", "src\Megaleios.Repository\Megaleios.Repository.csproj", "{69FFD6BA-DE86-4B0F-BC77-F18253920D09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B9CBBD28-8B82-4447-AC00-BBCED14C5896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megaleios.WebApi", "src\Megaleios.WebApi\Megaleios.WebApi.csproj", "{CBF1C434-5A2D-4F95-A452-6558C806A78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E570E15-9DA7-461F-B748-0C9F33A7AB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E570E15-9DA7-461F-B748-0C9F33A7AB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E570E15-9DA7-461F-B748-0C9F33A7AB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E570E15-9DA7-461F-B748-0C9F33A7AB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184DC297-9804-4B18-9116-464E6C8A667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184DC297-9804-4B18-9116-464E6C8A667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184DC297-9804-4B18-9116-464E6C8A667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184DC297-9804-4B18-9116-464E6C8A667C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FFD6BA-DE86-4B0F-BC77-F18253920D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FFD6BA-DE86-4B0F-BC77-F18253920D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FFD6BA-DE86-4B0F-BC77-F18253920D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FFD6BA-DE86-4B0F-BC77-F18253920D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF1C434-5A2D-4F95-A452-6558C806A78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF1C434-5A2D-4F95-A452-6558C806A78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF1C434-5A2D-4F95-A452-6558C806A78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF1C434-5A2D-4F95-A452-6558C806A78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E570E15-9DA7-461F-B748-0C9F33A7AB31} = {2F295185-FF40-4B0A-A2EA-80E617785EEF}
+		{184DC297-9804-4B18-9116-464E6C8A667C} = {2F295185-FF40-4B0A-A2EA-80E617785EEF}
+		{69FFD6BA-DE86-4B0F-BC77-F18253920D09} = {2F295185-FF40-4B0A-A2EA-80E617785EEF}
+		{CBF1C434-5A2D-4F95-A452-6558C806A78E} = {B9CBBD28-8B82-4447-AC00-BBCED14C5896}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F8E2A44-764E-4244-A29F-C9FB1FDE25AD}
+	EndGlobalSection
+EndGlobal
